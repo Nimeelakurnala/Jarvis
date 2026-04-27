@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Morning Briefing",
+    "time": "08:00",
+    "days": "daily",
+    "command": "Good morning! Give me a quick briefing and open gaming news."
+  },
+  {
+    "name": "Stream Reminder",
+    "time": "19:30",
+    "days": "weekday",
+    "command": "Remind me to start my stream. Open OBS and check my Twitch status."
+  },
+  {
+    "name": "Gaming News Evening",
+    "time": "18:00",
+    "days": "daily",
+    "command": "What's the latest gaming news? Open it in the browser."
+  },
+  {
+    "name": "Sleep Reminder",
+    "time": "02:00",
+    "days": "daily",
+    "command": "It's 2 AM, you should probably sleep. Should I put the system to sleep?"
+  }
+]

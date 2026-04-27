@@ -1,0 +1,40 @@
+{
+  "user": {
+    "name": "Boss",
+    "twitch_username": "your_twitch_username",
+    "timezone": "UTC"
+  },
+  "voice": {
+    "wake_word": "jarvis",
+    "tts_rate": 185,
+    "tts_volume": 0.95,
+    "mic_sensitivity": 1.0,
+    "always_listen": false
+  },
+  "obs": {
+    "host": "localhost",
+    "port": 4455,
+    "password": "your_obs_password",
+    "default_scene": "Gaming"
+  },
+  "browser": {
+    "default": "chrome",
+    "news_site": "https://news.google.com",
+    "youtube_autoplay": true
+  },
+  "steam": {
+    "library_path": "C:\\Program Files (x86)\\Steam"
+  },
+  "ui": {
+    "theme": "dark",
+    "hud_opacity": 0.92,
+    "hud_position": "top-right",
+    "accent_color": "#00d4ff",
+    "show_clock": true,
+    "show_system_stats": true
+  },
+  "server": {
+    "port": 5000,
+    "host": "localhost"
+  }
+}

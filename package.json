@@ -1,0 +1,40 @@
+{
+  "name": "jarvis-ai",
+  "version": "1.0.0",
+  "description": "POV: you built Jarvis to run your life",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "concurrently \"npm run react\" \"wait-on http://localhost:3000 && electron .\"",
+    "react": "react-scripts start",
+    "build": "react-scripts build && electron-builder",
+    "pack": "electron-builder --dir"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.383.0",
+    "socket.io-client": "^4.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "electron": "^29.0.0",
+    "electron-builder": "^24.9.0",
+    "react-scripts": "^5.0.1",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.jarvis.ai",
+    "productName": "JARVIS",
+    "win": {
+      "target": "nsis",
+      "icon": "frontend/public/icon.ico"
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  },
+  "homepage": "./"
+}
